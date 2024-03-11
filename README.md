@@ -103,7 +103,37 @@ In this data set, We are having total 9 features including serial number and 500
 
 # EDA:-
 ```
+- All columns are having simular values for mean & 50% percentile of the except Research column. might there is a chance of having skewed data in Reseach column.
 
+- **GRE_Score,TOEFL_Score,University_Rating,Research** This are columns are having with discrete count values.
+- **SOP,LOR,CGPA,Chance_of_Admit** This are columns are having with discrete continuous values.
+
+- There is no any duplicated values are presents in this data set.
+
+- In ths data set, we have total 500 row and 9 columns. But we are not going to include serial number column. so, after ignoring serial number column we get 8 columns in this data set.
+
+- Non of the column having null values.
+
+# STD:-
+
+- **Standard deviation is a number that describes how spread out the values are.**
+- **A low standard deviation means that most of the numbers are close to the mean (average) value.**
+- **A high standard deviation means that the values are spread out over a wider range.**
+
+- GRE_Score column std values are within the range of 11.295148 from the mean, which mean - 316.472000.	
+- TOEFL_Score column std values are within the range of 6.081868 from the mean, which mean - 107.192000.
+- University_Rating column std values are within the range of 1.143512 from the mean, which mean - 3.114000.
+- SOP column std values are within the range of 0.991004 from the mean, which mean - 3.374000.
+- LOR column std values are within the range of 0.925450 from the mean, which mean - 3.48400.
+- CGPA column std values are within the range of 0.604813 from the mean, which mean - 8.576440.
+- Research column std values are within the range of 0.496884 from the mean, which mean - 0.560000.
+- Chance_of_Admit column std values are within the range of 0.141140 from the mean, which mean - 0.72174.
+
+# skew():-
+
+- Skewness seems, for every column elements are symmetrically distributed. 
+
+![alt text](image.png)
 ```
 
 
