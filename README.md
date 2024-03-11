@@ -133,7 +133,7 @@ In this data set, We are having total 9 features including serial number and 500
 
 - Skewness seems, for every column elements are symmetrically distributed. 
 
-![alt text](image.png)
+[skewness of data](E:/NareshiTech/admission_predict/visual_plot/GRE_score/gre_cgpa_heatmap.png)
 ```
 
 
