@@ -15,5 +15,30 @@ from scipy.stats import ttest_1samp,chi2_contingency,binomtest,f_oneway
 # Data Loading:-
 
 ds=pd.read_csv("E:/NareshiTech/admission_predict.csv")
+
+ds=ds.rename(columns={'GRE Score':'GRE_Score','TOEFL Score':'TOEFL_Score','University Rating':'University_Rating','LOR ':'LOR','Chance of Admit ':'Chance_of_Admit'})
+
 ds.head()
+ds.columns.to_list()
+ds.count()
+ds.corr()
+ds[['GRE_Score','TOEFL Score']].corr()
+ds[['GRE_Score','University Rating']].corr()
+ds[['GRE_Score','SOP']].corr()
+ds[['GRE_Score','LOR']].corr()
+ds[['GRE_Score','CGPA']].corr()
+ds[['GRE_Score','Research']].corr()
+ds[['GRE_Score','Chance_of_Admit']].corr()
+ds[['TOEFL_Score','University_Rating']].corr()
+ds[['TOEFL_Score','SOP']].corr()
+ds[['TOEFL_Score','LOR']].corr()
+ds[['TOEFL_Score','CGPA']].corr()
+ds[['TOEFL_Score','Research']].corr()
+ds[['TOEFL_Score','Chance_of_Admit']].corr()
+
+
+
+
+
+
 
