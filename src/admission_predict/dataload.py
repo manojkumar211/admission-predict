@@ -14,16 +14,16 @@ from scipy.stats import ttest_1samp,chi2_contingency,binomtest,f_oneway
 
 # Data Loading:-
 
-ds=pd.read_csv("E:/NareshiTech/admission_predict.csv")
+df=pd.read_csv("E:/NareshiTech/admission_predict.csv")
 
-ds=ds.rename(columns={'GRE Score':'GRE_Score','TOEFL Score':'TOEFL_Score','University Rating':'University_Rating','LOR ':'LOR','Chance of Admit ':'Chance_of_Admit'})
+ds=df.rename(columns={'GRE Score':'GRE_Score','TOEFL Score':'TOEFL_Score','University Rating':'University_Rating','LOR ':'LOR','Chance of Admit ':'Chance_of_Admit'})
 
 ds.head()
 ds.columns.to_list()
 ds.count()
 ds.corr()
-ds[['GRE_Score','TOEFL Score']].corr()
-ds[['GRE_Score','University Rating']].corr()
+ds[['GRE_Score','TOEFL_Score']].corr()
+ds[['GRE_Score','University_Rating']].corr()
 ds[['GRE_Score','SOP']].corr()
 ds[['GRE_Score','LOR']].corr()
 ds[['GRE_Score','CGPA']].corr()
@@ -35,6 +35,23 @@ ds[['TOEFL_Score','LOR']].corr()
 ds[['TOEFL_Score','CGPA']].corr()
 ds[['TOEFL_Score','Research']].corr()
 ds[['TOEFL_Score','Chance_of_Admit']].corr()
+ds[['University_Rating','SOP']].corr()
+ds[['University_Rating','LOR']].corr()
+ds[['University_Rating','CGPA']].corr()
+ds[['University_Rating','Research']].corr()
+ds[['University_Rating','Chance_of_Admit']].corr()
+ds[['SOP','LOR']].corr()
+ds[['SOP','CGPA']].corr()
+ds[['SOP','Research']].corr()
+ds[['SOP','Chance_of_Admit']].corr()
+ds[['LOR','CGPA']].corr()
+ds[['LOR','Research']].corr()
+ds[['LOR','Chance_of_Admit']].corr()
+ds[['CGPA','Research']].corr()
+ds[['CGPA','Chance_of_Admit']].corr()
+ds[['Research','Chance_of_Admit']].corr()
+ds.describe()
+
 
 
 

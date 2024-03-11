@@ -29,7 +29,7 @@ In this data set, We are having total 9 features including serial number and 500
 # Observations:-
 
 ## Correlation between columns:-
-### GRE_Score:-
+### GRE_Score (Graduate Record Examination):-
 ```
 - columns are not having any null values. so, we can good to go.
 
@@ -41,10 +41,10 @@ In this data set, We are having total 9 features including serial number and 500
 - GRE scores & CGPA are having **0.563398%** of correlation between them.
 - GRE scores & Chance_of_Admit are having **0.810351%** of correlation between them.
 
-- (GRE score & TOEFL score), (GRE score & CGPA score) and (GRE scores & Chance_of_Admit) are having high correlation with respect **0.827% and 0.825% and 0.810351%**.
+- (GRE score & TOEFL score), (GRE score & CGPA score) and (GRE scores & Chance_of_Admit) are having high correlation with respect to the **0.827% and 0.825% and 0.810351%**.
 - GRE scores & LOR are having less correlation with respect **0.524679%**.
 ```
-### TOEFL_Score:-
+### TOEFL_Score (Test of English as a Foreign Language):-
 ```
 - TOEFL_Score & University_Rating columns are having **0.649799%** of correlation between them.
 - TOEFL_Score & SOP columns are having **0.64441%** of correlation between them.
@@ -52,5 +52,58 @@ In this data set, We are having total 9 features including serial number and 500
 - TOEFL_Score & CGPA columns are having **0.810574%** of correlation between them.
 - TOEFL_Score & Research columns are having **0.467012%** of correlation between them.
 - TOEFL_Score & Chance_of_Admit columns are having **0.792228%** of correlation between them.
+
+- (TOEFL_Score & CGPA) and (TOEFL_Score & Chance_of_Admit) are having high correlation with respect to the **0.810574% and 0.792228%**.
+- TOEFL_Score & Research are having less correlation with respect to the **0.467012%**.
 ```
+### University_Rating:-
+```
+- University_Rating & SOP columns are having **0.728024%** of correlation between them.
+- University_Rating & LOR columns are having **0.608651%** of correlation between them.
+- University_Rating & CGPA columns are having **0.705254%** of correlation between them.
+- University_Rating & Research columns are having **0.427047%** of correlation between them.
+- University_Rating & Chance_of_Admit columns are having **0.690132%** of correlation between them.
+
+- (University_Rating & SOP) and (University_Rating & CGPA) are having high correlation with respect to the **0.728024% and 0.705254%**.
+- University_Rating & Research are having less correlation with respect to the **0.427047%**.
+```
+### SOP (Statement of Purpose):-
+```
+- SOP & LOR columns are having **0.663707%** of correlation between them.
+- SOP & CGPA columns are having **0.712154%** of correlation between them.
+- SOP & Research columns are having **0.408116%** of correlation between them.
+- SOP & Chance_of_Admit columns are having **0.684137%** of correlation between them.
+
+- SOP & CGPA are having high correlation with respect to the **0.712154%**.
+- SOP & Research are having less correlation with respect to the **0.408116%**.
+
+```
+### LOR (Letter of Recommendation):-
+```
+- LOR & CGPA columns are having **0.637469%** of correlation between them.
+- LOR & Research columns are having **0.372526%** of correlation between them.
+- LOR & Chance_of_Admit columns are having **0.645365%** of correlation between them.
+
+- LOR & Chance_of_Admit are having high correlation with respect to the **0.645365%**.
+- LOR & Research are having less correlation with respect to the **0.372526%**.
+```
+### CGPA (Cumulative Grade Point Average):-
+```
+- CGPA & Research columns are having **0.501311%** of correlation between them.
+- CGPA & Chance_of_Admit columns are having **0.882413%** of correlation between them.
+
+- CGPA & Chance_of_Admit are having high correlation with respect to the **0.882413%**.
+- CGPA & Research are having less correlation with respect to the **0.501311%**.
+```
+
+### Research:-
+```
+- Research & Chance_of_Admit columns are having **0.545871%** of correlation between them.
+```
+
+# EDA:-
+```
+
+```
+
 
