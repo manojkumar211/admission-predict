@@ -5,6 +5,8 @@ seaborn
 scikit-learn
 statsmodels
 ipython
+scipy
+ipykernel
 
 
 -e .
