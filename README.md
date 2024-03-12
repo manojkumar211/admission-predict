@@ -133,7 +133,17 @@ In this data set, We are having total 9 features including serial number and 500
 
 - Skewness seems, for every column elements are symmetrically distributed. 
 
-[skewness of data](E:/NareshiTech/admission_predict/visual_plot/GRE_score/gre_cgpa_heatmap.png)
+# Density plot:-
+
+- The Density plot for GRE_Score seems to be symmetric distribution.
+- The Density plot for TOEFL_Score seems to be symmetric distribution.
+- The Density plot for University_Rating seems to be symmetric distribution.
+- The Density plot for SOP seems to be symmetric distribution.
+- The Density plot for LOR seems to be symmetric distribution.
+- The Density plot for CGPA seems to be symmetric distribution.
+- The Density plot for Research seems to be symmetric distribution.
+- The Density plot for Chance_of_Admit seems to be small skewed distribution.
+
 ```
 
 
