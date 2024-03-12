@@ -133,8 +133,9 @@ In this data set, We are having total 9 features including serial number and 500
 
 - Skewness seems, for every column elements are symmetrically distributed. 
 
-# Density plot:-
-
+```
+## Density plot:-
+```
 - The Density plot for GRE_Score seems to be symmetric distribution.
 - The Density plot for TOEFL_Score seems to be symmetric distribution.
 - The Density plot for University_Rating seems to be symmetric distribution.
@@ -143,7 +144,25 @@ In this data set, We are having total 9 features including serial number and 500
 - The Density plot for CGPA seems to be symmetric distribution.
 - The Density plot for Research seems to be symmetric distribution.
 - The Density plot for Chance_of_Admit seems to be small skewed distribution.
-
 ```
-
-
+## Box Plotting:-
+```
+- There is no any outliers in the GRE_Score column.
+- There is no any outliers in the TOEFL_Score column.
+- There is no any outliers in the University_Rating column.
+- There is no any outliers in the SOP column.
+- There is one outliers in the LOR column and it presents in the lower boundary.
+- There is no any outliers in the CGPA column.
+- There is no any outliers in the Research column.
+- There is one outliers in the Chance_of_Admit column and it presents in the lower boundary.
+```
+## Scatter Plotting:-
+```
+- Relationship between GRE_Score & Chance_of_Admit having passitive correlation.
+- Relationship between TOEFL_Score & Chance_of_Admit having passitive correlation.
+- There is no relationship between University_Rating & Chance_of_Admit.
+- There is no relationship between SOP & Chance_of_Admit.
+- There is no relationship between LOR & Chance_of_Admit.
+- Relationship between CGPA & Chance_of_Admit having passitive correlation.
+- There is no relationship between Research & Chance_of_Admit.
+```
