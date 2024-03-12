@@ -20,12 +20,103 @@ discrete_count=['GRE_Score','TOEFL_Score','University_Rating','Research']
 ds[continuous_values].describe()
 ds[discrete_count].describe()
 
+ds['SOP'].unique().tolist()
+ds['LOR'].unique().tolist()
+ds['CGPA'].value_counts().count()
+ds['Chance_of_Admit'].value_counts().count()
+ds['GRE_Score'].value_counts().count()
+ds['TOEFL_Score'].value_counts().count()
+ds['University_Rating'].unique().tolist()
+ds['Research'].unique().tolist()
+
+
+ds[ds['SOP']==1][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==1][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==1][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==1][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==1.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==1.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==1.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==1.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==2][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==2][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==2][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==2][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==2.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==2.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==2.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==2.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==3][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==3][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==3][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==3][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==3.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==3.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==3.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==3.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==4][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==4][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==4][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==4][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==4.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==4.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==4.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==4.5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['SOP']==5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['SOP']==5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['SOP']==5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['SOP']==5][['GRE_Score','TOEFL_Score','University_Rating','LOR','CGPA','Research','Chance_of_Admit']].max()
+
+
+
+
+ds[ds['LOR']==1][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==1.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==1.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==1.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==1.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==2][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==2][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==2][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==2][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==2.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==2.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==2.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==2.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==3][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==3][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==3][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==3][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==3.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==3.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==3.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==3.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==4][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==4][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==4][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==4][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==4.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==4.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==4.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==4.5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['LOR']==5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']]
+ds[ds['LOR']==5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['LOR']==5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['LOR']==5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Research','Chance_of_Admit']].max()
+
+
+
+
+
+
+
+
 
 
 # Density plot for GRE_Score:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['GRE_Score'],ax=ax)
+sns.distplot(ds['GRE_Score'],ax=ax) # type: ignore
 plt.title("Density plot for GRE_Score")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/gre_dens.png")
 
@@ -33,7 +124,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/gre_dens
 # Density plot for TOEFL_Score:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['TOEFL_Score'],ax=ax)
+sns.distplot(ds['TOEFL_Score'],ax=ax) # type: ignore
 plt.title("Density plot for TOEFL_Score")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/toefl_dens.png")
 
@@ -41,7 +132,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/toefl_de
 # Density plot for University_Rating:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['University_Rating'],ax=ax)
+sns.distplot(ds['University_Rating'],ax=ax) # type: ignore
 plt.title("Density plot for University_Rating")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/univ_dens.png")
 
@@ -50,7 +141,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/univ_den
 # Density plot for SOP:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['SOP'],ax=ax)
+sns.distplot(ds['SOP'],ax=ax) # type: ignore
 plt.title("Density plot for SOP")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/sop_dens.png")
 
@@ -58,7 +149,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/sop_dens
 # Density plot for LOR:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['LOR'],ax=ax)
+sns.distplot(ds['LOR'],ax=ax) # type: ignore
 plt.title("Density plot for LOR")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/lor_dens.png")
 
@@ -66,7 +157,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/lor_dens
 # Density plot for CGPA:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['CGPA'],ax=ax)
+sns.distplot(ds['CGPA'],ax=ax) # type: ignore
 plt.title("Density plot for CGPA")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/cgpa_dens.png")
 
@@ -75,7 +166,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/cgpa_den
 # Density plot for Research:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['Research'],ax=ax)
+sns.distplot(ds['Research'],ax=ax) # type: ignore
 plt.title("Density plot for Research")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/res_dens.png")
 
@@ -84,7 +175,7 @@ plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/res_dens
 # Density plot for Chance_of_Admit:-
 
 fir,ax=plt.subplots(figsize=(10,5))
-sns.distplot(ds['Chance_of_Admit'],ax=ax)
+sns.distplot(ds['Chance_of_Admit'],ax=ax) # type: ignore
 plt.title("Density plot for Chance_of_Admit")
 plt.savefig("E:/NareshiTech/admission_predict/visual_plot/Density_plots/coa_dens.png")
 

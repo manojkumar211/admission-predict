@@ -4,3 +4,9 @@ admission_model.egg-info/PKG-INFO
 admission_model.egg-info/SOURCES.txt
 admission_model.egg-info/dependency_links.txt
 admission_model.egg-info/top_level.txt
+src/__init__.py
+src/admission_predict/__init__.py
+src/admission_predict/dataload.py
+src/admission_predict/eda.py
+src/admission_predict/iqr.py
+src/admission_predict/ploting.py

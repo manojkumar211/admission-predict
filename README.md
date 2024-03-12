@@ -166,3 +166,70 @@ In this data set, We are having total 9 features including serial number and 500
 - Relationship between CGPA & Chance_of_Admit having passitive correlation.
 - There is no relationship between Research & Chance_of_Admit.
 ```
+# Fultering:-
+```
+# Unique Values:- 
+
+- In SOP column, we are having 9 unique values.
+- In LOR column, we are having 9 unique values.
+- In CGPA column, we are having 184 unique values. so, we can't able apply the filter method.
+- In Chance_of_Admit column, we are having 61 unique values. so, we can't able apply the filter method.
+- In GRE_Score column, we are having 49 unique values. so, we can't able apply the filter method.
+- In TOEFL_Score column, we are having 29 unique values. so, we can't able apply the filter method.
+- In University_Rating column, we are having 5 unique values.
+- In Research column, we are having 2 unique values.
+
+# SOP==1:-
+- In SOP==1, **(GRE_Score-299 to 312, TOEFL_Score-94 to 105, University_Rating-1 & 2, LOR-1 to 2, CGPA-7.34 to 8.01, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.42 to 0.58 only and in this parameter 6 record are there.
+
+# SOP==1.5:-
+- In SOP==1, **(GRE_Score-290 to 332, TOEFL_Score-93 to 112, University_Rating-1 & 4, LOR-1.50 to 4, CGPA-7.23 to 8.66, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.42 to 0.79 only and in this parameter 25 record are there.
+
+# SOP==2:-
+- In SOP==2, **(GRE_Score-290 to 329 TOEFL_Score-92 to 114, University_Rating-1 to 4, LOR-1.50 to 4.50, CGPA-7.20 to 8.74, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.36 to 0.81 only and in this parameter 43 record are there.
+
+# SOP==2.5:-
+- In SOP==2.5, **(GRE_Score-5 to 324 TOEFL_Score-94 to 112, University_Rating-1 to 4, LOR-1.50 to 4.50, CGPA-7.43 to 9.02, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.34 to 0.80 only and in this parameter 64 record are there.
+
+# SOP==3:-
+- In SOP==3, **(GRE_Score-296 to 338 TOEFL_Score-95 to 118, University_Rating-1 to 5, LOR-1.50 to 5, CGPA-6.80 to 9.40, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.36 to 0.91 only and in this parameter 80 record are there.
+
+# SOP==3.5:-
+- In SOP==3.5, **(GRE_Score-298 to 338 TOEFL_Score-98 to 117, University_Rating-1 to 5, LOR-2 to 5, CGPA-7.68 to 9.46, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.45 to 0.91 only and in this parameter 88 record are there.
+
+# SOP==4:-
+- In SOP==4, **(GRE_Score-298 to 340 TOEFL_Score-98 to 120, University_Rating-2 to 5, LOR-2.50 to 5, CGPA-7.60 to 9.87, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.34 to 0.97 only and in this parameter 89 record are there.
+
+# SOP==4.5:-
+- In SOP==4.5, **(GRE_Score-308 to 340 TOEFL_Score-102 to 120, University_Rating-2 to 5, LOR-3 to 5, CGPA-8.14 to 9.92, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.57 to 0.97 only and in this parameter 63 record are there.
+
+# SOP==5:-
+- In SOP==5, **(GRE_Score-299 to 340 TOEFL_Score-97 to 120, University_Rating-3 to 5, LOR-3.00 to 5, CGPA-7.66 to 9.87, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.38 to 0.96 only and in this parameter 42 record are there.
+
+# LOR==1:-
+- In LOR==1, **(GRE_Score-299 TOEFL_Score-94, University_Rating-1, SOP-1.0, CGPA-7.34, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.42 only and in this parameter 1 record are there.
+
+# LOR==1.5:-
+- In LOR==1.5, **(GRE_Score-294 to 324 TOEFL_Score-94 to 111, University_Rating-1 to 3, SOP-1.00 to 3, CGPA-7.50 to 8.79, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.37 to 0.81 only and in this parameter 11 record are there.
+
+# LOR==2:-
+- In LOR==2, **(GRE_Score-290 to 325 TOEFL_Score-92 to 114, University_Rating-1 to 4, SOP-1.00 to 4, CGPA-6.80 to 8.780, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.34 to 0.79 only and in this parameter 46 record are there.
+
+# LOR==2.5:-
+- In LOR==2.5, **(GRE_Score-290 to 328 TOEFL_Score-98 to 113, University_Rating-1 to 4, SOP-1.00 to 4, CGPA-7.46 to 9.02, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.36 to 0.83 only and in this parameter 50 record are there.
+
+# LOR==3:-
+- In LOR==3, **(GRE_Score-295 to 334 TOEFL_Score-97 to 116, University_Rating-1 to 5, SOP-1.50 to 5, CGPA-7.21 to 9.34, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.34 to 0.90 only and in this parameter 99 record are there.
+
+# LOR==3.5:-
+- In LOR==3.5, **(GRE_Score-296 to 339 TOEFL_Score-97 to 119, University_Rating-1 to 5, SOP-1.50 to 5, CGPA-7.28 to 9.80, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.38 to 0.97 only and in this parameter 86 record are there.
+
+# LOR==4:-
+- In LOR==4, **(GRE_Score-293 to 340 TOEFL_Score-96 to 120, University_Rating-1 to 5, SOP-1.50 to 5, CGPA-7.23 to 9.92, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.52 to 0.97 only and in this parameter 94 record are there.
+
+# LOR==4.5:-
+- In LOR==4.5, **(GRE_Score-298 to 340 TOEFL_Score-96 to 120, University_Rating-2 to 5, SOP-2 to 5, CGPA-7.69 to 9.91, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.53 to 0.97 only and in this parameter 63 record are there.
+
+# LOR==5:-
+- In LOR==5, **(GRE_Score-302 to 340 TOEFL_Score-100 to 120, University_Rating-3 to 5, SOP-3 to 5, CGPA-8.33 to 9.87, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.65 to 0.97 only and in this parameter 50 record are there.
+```

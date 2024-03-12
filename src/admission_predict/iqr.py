@@ -7,7 +7,7 @@ from dataload import ds
 
 
 # Outliers in LOR column:-
-
+'''
 class lor_outliers:
 
     lor_after_list=[]
@@ -58,8 +58,10 @@ class lor_outliers:
         return self.lor_after_list
     def lor_with_out(self):
         return self.lor_outlies_list
-    
+'''
 
+
+'''
 # Outliers in Chance_of_Admit column:-
 
 
@@ -113,5 +115,5 @@ class coa_outliers:
         return self.coa_after_list
     def coa_with_out(self):
         return self.coa_outlies_list
-    
+'''    
 
