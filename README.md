@@ -166,7 +166,7 @@ In this data set, We are having total 9 features including serial number and 500
 - Relationship between CGPA & Chance_of_Admit having passitive correlation.
 - There is no relationship between Research & Chance_of_Admit.
 ```
-# Fultering:-
+# Filtering:-
 ```
 # Unique Values:- 
 
