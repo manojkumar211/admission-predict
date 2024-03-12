@@ -106,6 +106,39 @@ ds[ds['LOR']==5][['GRE_Score','TOEFL_Score','University_Rating','SOP','CGPA','Re
 
 
 
+ds[ds['University_Rating']==1][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['University_Rating']==1][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['University_Rating']==1][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['University_Rating']==1][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['University_Rating']==1][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['University_Rating']==2][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['University_Rating']==2][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['University_Rating']==2][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['University_Rating']==3][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['University_Rating']==3][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['University_Rating']==3][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['University_Rating']==3][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['University_Rating']==4][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['University_Rating']==4][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['University_Rating']==4][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['University_Rating']==4][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].max()
+ds[ds['University_Rating']==5][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']]
+ds[ds['University_Rating']==5][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].count()
+ds[ds['University_Rating']==5][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].min()
+ds[ds['University_Rating']==5][['GRE_Score','TOEFL_Score','SOP','LOR','CGPA','Research','Chance_of_Admit']].max()
+
+
+
+
+ds[ds['Research']==0][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']]
+ds[ds['Research']==0][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']].count()
+ds[ds['Research']==0][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']].min()
+ds[ds['Research']==0][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']].max()
+ds[ds['Research']==1][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']]
+ds[ds['Research']==1][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']].count()
+ds[ds['Research']==1][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']].min()
+ds[ds['Research']==1][['GRE_Score','TOEFL_Score','University_Rating','SOP','LOR','CGPA','Chance_of_Admit']].max()
+
 
 
 

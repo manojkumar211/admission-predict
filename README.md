@@ -232,4 +232,50 @@ In this data set, We are having total 9 features including serial number and 500
 
 # LOR==5:-
 - In LOR==5, **(GRE_Score-302 to 340 TOEFL_Score-100 to 120, University_Rating-3 to 5, SOP-3 to 5, CGPA-8.33 to 9.87, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.65 to 0.97 only and in this parameter 50 record are there.
+
+# University_Rating:-
+- In University_Rating==1, **(GRE_Score-290 to 332 TOEFL_Score-92 to 112, SOP-1 to 3.50, LOR-1 to 4, CGPA-6.80 to 9.12, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.36 to 0.79 only and in this parameter 34 record are there.
+
+# University_Rating:-
+- In University_Rating==2, **(GRE_Score-293 to 332 TOEFL_Score-94 to 118, SOP-1 to 4.50, LOR-1.50 to 4.50, CGPA-7.21 to 9.36, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.34 to 0.90 only and in this parameter 126 record are there.
+
+# University_Rating:-
+- In University_Rating==3, **(GRE_Score-297 to 331 TOEFL_Score-97 to 120, SOP-2 to 5, LOR-1.50 to 5, CGPA-7.40 to 9.32, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.36 to 0.90 only and in this parameter 162 record are there.
+
+# University_Rating:-
+- In University_Rating==4, **(GRE_Score-290 to 340 TOEFL_Score-96 to 120, SOP-1.50 to 5, LOR-2 to 5, CGPA-7.46 to 9.92, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.42 to 0.97 only and in this parameter 105 record are there.
+
+# University_Rating:-
+- In University_Rating==5, **(GRE_Score-303 to 340 TOEFL_Score-101 to 120, SOP-3 to 5, LOR-3 to 5, CGPA-7.92 to 9.91, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.61 to 0.97 only and in this parameter 73 record are there.
+
+# Research:-
+- In Research==0, **(GRE_Score-290 to 339 TOEFL_Score-92 to 120, University_Rating-1 to 5 , SOP-1 to 5, LOR-1 to 5, CGPA-7.20 to 9.70, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.34 to 0.89 only and in this parameter 220 record are there.
+
+# Research:-
+- In Research==1, **(GRE_Score-293 to 340 TOEFL_Score-95 to 120, University_Rating-1 to 5 , SOP-1 to 5, LOR-1.50 to 5, CGPA-6.80 to 9.92, Research-0 & 1)**, for this parameters we can get Chance_of_Admit from - 0.36 to 0.97 only and in this parameter 280 record are there.
+```
+
+# Data Cleaning:-
+```
+- Removed and replaced the outlies.
+```
+## X and y:
+```
+X=ds.drop(columns=['Serial No.','Chance_of_Admit','SOP'])
+y=ds['Chance_of_Admit']
+- instead of 8 independent columns, we consider only 7 independent columns. why beacause SOP column having high significance value.
+```
+
+# Linear Regression model:-
+```
+Train Accuracy - 0.8213508151961643
+Test Accuracy - 0.8212861443145779
+Cross-validation Accuracy - 0.8137016376587068
+```
+
+# Polynomial Regression model:-
+```
+Train Accuracy - 0.8214313062718266
+Test Accuracy - 0.8220836352928902
+Cross-validation Accuracy - 0.813878077674634
 ```
